@@ -16,6 +16,8 @@ public class Main {
     public static void main(String[] unused) {
         System.out.printf("DB61B System.  Version %s.%n", VERSION);
 
+        System.out.println("zjy");
+
         Scanner input = new Scanner(System.in);
         CommandInterpreter interpreter =
             new CommandInterpreter(input, System.out);
